@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BasicSelect</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<form action="">
+			<fieldset>
+			    <select name="">
+            <option value="">Compra</option>
+            <option value="2">Venta</option>
+            <option value="3">Arriendo</option>
+          </select>
+			</fieldset>
+			<fieldset>
+			    <select name="">
+            <option value="">Inmueble</option>
+            <option value="2">Casa</option>
+            <option value="3">Edificio</option>
+            <option value="4">Finca</option>
+            <option value="4">Habitación</option>
+          </select>
+			</fieldset>
+			<fieldset>
+			  	<select name="">
+            <option value="">Ciudad</option>
+            <option value="2">Bogotá</option>
+            <option value="3">Cali</option>
+            <option value="4">Barranquilla</option>
+          </select>
+			</fieldset>
+			<fieldset>
+			  <select name="">
+          <option value="">Zona</option>
+          <option value="2">Centro</option>
+          <option value="3">Oriente</option>
+          <option value="4">Norte</option>
+        </select>
+			</fieldset>
+		</form>
+	</div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/styleSelect.js"></script>
+
+	<script>
+    $(function(){
+    	$('select').styleSelect();
+    })
+	</script>
+</body>
+</html>

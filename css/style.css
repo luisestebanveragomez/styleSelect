@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+fieldset{
+	border:none;
+	margin: 10px 0;
+}
+.wrapper{
+	width: 920px;
+	margin: 0 auto;
+	display: block;
+}
+
+.select {
+  position: relative;
+}
+
+.select select {
+  position: absolute;
+  z-index: 999;
+  height: 42px;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  color: #333;
+}
+select>option:hover
+    {
+        color: #1B517E;
+        cursor: pointer;
+    }
+
+.select .arrow{
+  background: #ffffff;
+  border: 2px solid #333;
+  text-shadow: 0 1px 0 #fff;
+  position: relative;
+  height: 42px;
+  color: #333;
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 5px;
+  line-height: 42px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.select .arrow:after{
+  content: '';
+  width: 24px;
+  height: 14px;
+  background: url(../img/arrow-select.png);
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
