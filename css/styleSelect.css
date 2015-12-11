@@ -24,6 +24,7 @@ fieldset{
   cursor: pointer;
   width: 100%;
   color: #333;
+  -webkit-appearance: none;
 }
 select>option:hover
     {
